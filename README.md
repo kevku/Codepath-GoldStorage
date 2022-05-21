@@ -89,7 +89,14 @@ and any inputted spending will notify the user how much budget they have left.
 ## Schema 
 [This section will be completed in Unit 9]
 ### Models
-[Add table of models]
+### SpendingObject
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | objectId      | String   | unique id for the user budget log |
+   | description   | String   | description of spending |
+   | spending      | Number   | how much was spent |
+   | createdAt     | DateTime | date when spending is created (default field) |
+   | updatedAt     | DateTime | date when spending is last updated (default field) |
 ### Networking
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
