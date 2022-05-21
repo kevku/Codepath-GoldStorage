@@ -87,7 +87,6 @@ and any inputted spending will notify the user how much budget they have left.
 <img src="YOUR_WIREFRAME_IMAGE_URL.png" width=600>
 
 ## Schema 
-[This section will be completed in Unit 9]
 ### Models
 ### SpendingObject
    | Property      | Type     | Description |
