@@ -98,6 +98,13 @@ and any inputted spending will notify the user how much budget they have left.
    | createdAt     | DateTime | date when spending is created (default field) |
    | updatedAt     | DateTime | date when spending is last updated (default field) |
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+#### List of network requests by screen
+   - Spending History Screen
+      - (Read/GET) Query all spendings where user is author
+      - (Update/POST) update description of spending
+      - (Delete) Delete existing spending
+   - Create Spending Screen
+      - (Create/POST) Create a new spending object
+   - Log In Screen
+      - (Read/GET) Query logged in user object
+      - (Create/PUT) Create user profile
